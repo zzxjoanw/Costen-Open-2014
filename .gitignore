@@ -36,8 +36,40 @@ $RECYCLE.BIN/
 .Trashes
 
 # Directories potentially created on remote AFP share
+*.dist
+*.gif
+*.htm
+*.html
+*.jpg
+*.lock
+*.log
+*.md
+*.phps
+*.png
+*.prefs
+*.sh
+*.txt
+*.yml
+*.zip
+
+includes/
+logs/
+phpmailer/
+swiftmailer/
+
+.apdisk
 .AppleDB
 .AppleDesktop
+.project
+db_creator.php
+css/flipclock.css
+reg3.php
+reg-sample.php
+regform-ronan.php
+admin-ronan.php
 Network Trash Folder
 Temporary Items
-.apdisk
+reg2.php
+swiftmail-test.php
+mail-test.php
+ui-sampler.php
