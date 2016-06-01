@@ -1,0 +1,73 @@
+* { padding:0; margin:0; font-family: arial, sans-serif; font-family:Andalus,Arial,sans-serif; font-size:18px; }
+
+/* general styles */
+	body { background:url("../images/cream_pixels_@2X.png"); position:relative; top:-10px; }
+	a { text-decoration:none; color: rgba(64,198,231,1); }
+	a:visited { color: rgba(64,198,231,1) }
+	
+	footer { height:30px; width:100%; position:fixed; bottom:0; box-shadow: 0 -3px 5px #888888; background-color:grey; }
+		footer p { padding-left:20px; height:30px; line-height:30px; }
+		
+	td { padding:0 20px; }
+	
+	/* header */
+	header { height:120px; width:100%; top:0; position:relative; z-index:999; background-color:#40c6e7; }
+	header div { width:100%; height:60px; background-color:#40c6e7; }
+		#logo { position:relative; top:10px; }
+		#logo a { color:black; padding-left:20px; line-height:60px; height:60px; }
+		
+	header nav { width:100%; height:60px; background-color:#3cbcd8; height:60px; }
+	
+	
+	.panel-default > .panel-heading
+	{
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#40c6e7+50,3cbcd8+51 */
+		background: #40c6e7; /* Old browsers */
+		background: -moz-linear-gradient(top,  #40c6e7 50%, #3cbcd8 51%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#40c6e7), color-stop(51%,#3cbcd8)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #40c6e7 50%,#3cbcd8 51%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #40c6e7 50%,#3cbcd8 51%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #40c6e7 50%,#3cbcd8 51%); /* IE10+ */
+		background: linear-gradient(to bottom,  #40c6e7 50%,#3cbcd8 51%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40c6e7', endColorstr='#3cbcd8',GradientType=0 ); /* IE6-9 */
+	}
+	
+	.container { margin-top: 100px; }
+	
+	/*
+	#tabs li:active, nav:active {
+		// Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3cbcd8+49,40c6e7+50 
+		background: #3cbcd8; /* Old browsers 
+		background: -moz-linear-gradient(top, #3cbcd8 49%, #40c6e7 50%); /* FF3.6+ 
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(49%,#3cbcd8), color-stop(50%,#40c6e7)); /* Chrome,Safari4+ 
+		background: -webkit-linear-gradient(top, #3cbcd8 49%,#40c6e7 50%); /* Chrome10+,Safari5.1+ 
+		background: -o-linear-gradient(top, #3cbcd8 49%,#40c6e7 50%); /* Opera 11.10+ 
+		background: -ms-linear-gradient(top, #3cbcd8 49%,#40c6e7 50%); /* IE10+ 
+		background: linear-gradient(to bottom, #3cbcd8 49%,#40c6e7 50%); /* W3C 
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3cbcd8', endColorstr='#40c6e7',GradientType=0 ); /* IE6-9 
+	}*/
+	
+	#tabs {  }
+	#tabs li { height: 60px; position: relative; list-style-type:none; display:inline-block; text-align:center; float:right; }
+	#tabs li a { color:#000; display:inline-block; width:150px; position:relative; line-height:60px; }
+	
+	/* content */
+	#main { height:100%; margin-top:75px; }
+		.mainHeaderText { font-size: 64px; text-align: center; width:100%; }
+		#clock { margin:0 auto 20px; width:690px; font-size:16px; }
+		#images { margin:0 auto 40px auto; text-align:center; }
+			#images img { margin:0 5px; height:300px; }
+
+	/* reg page */
+	#accordion, .accordion, .section { margin-left:100px; width:800px; margin-left:auto; margin-right:auto; margin-bottom:20px; border:1px solid black; ; min-height:100%; background:white; }
+	#accordion h3, .accordion h3, .section h3 { background-color:rgba(64,198,231,1); border-bottom:5px solid hsl(134,0%,33%); padding:10px; }
+	#accordion > div, .accordion > div, .section > div { padding:10px 10px 10px 10px; }
+	#submitHolder { width:100%; }
+	#ss-submit { border:0; background-image:url(../images/bkgrnd.png); height:64px; margin:0 auto; display:block; position:relative; top:5px; }
+	#submitText { width:150px; font-size:20pt; text-align:center; color:white; position:relative; top:-44px; margin:0 auto; pointer-events:none; }
+	
+	/* form styles */
+	form { width:50%; margin-left:25%; margin-top:100px; }
+	label { font-size: 30px; }
+	input, select { height:30px; margin-bottom:15px; color:black; }
+	option { font-size:24px; color:black; }
